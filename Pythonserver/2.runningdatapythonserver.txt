@@ -1,0 +1,7 @@
+CREATING A FOLDER (WEBSITE) TO RUN ONLINE ON PYTHON SERVER :
+
+mkdir website
+cd website
+touch index.html
+nano index.html
+python -m http.server 8080 (or) python3 -m http.server 8080

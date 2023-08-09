@@ -1,0 +1,27 @@
+USE OF PYTHON SERVER TO RUN THE FILE OR WEBSITE ONLINE :
+
+We need a server to access the file online.
+So, we use a "Python Server" to run a file online.
+	 ________________________________________
+	|					 |
+	|	python -m http.server 8080	 |
+	|________________________________________|
+
+This command converts a machine into a webserver with help of  "http" protocol using "port no. : 8080", which runs the server .
+
+	[ NOTE : Sometimes when the port doesn't run then we can also use different port no's. which are not in use. ]
+ 
+For updated versions of python we can add the new version no. after python.
+
+	 ________________________________________
+	|					 |
+	|	python3 -m http.server 8080	 |
+	|________________________________________|
+
+As, latest version of python is "3rd" version.
+
+This server runs a file or a website online and if the load of the wesite increases then the server automatically shuts down and website or file is no longer accessable. Every server have no. of final count or limit of users and if the count or limit exceeds then server doesn't work any long.
+
+Then we need to restart the server again to make server accessable.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
